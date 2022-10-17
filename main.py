@@ -14,3 +14,9 @@ cnum = len(numbers[0])
 # ******************************
 # Make your Code
 # ******************************
+
+for i in range (rnum):
+    rsum = 0
+    for j in range (cnum):
+        rsum += numbers[i][j]
+    print(f'The summation of row {i+1}: {rsum}')
